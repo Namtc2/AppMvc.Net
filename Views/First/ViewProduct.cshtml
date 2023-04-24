@@ -1,0 +1,12 @@
+@model ProductModel
+<div class="col"></div>
+<div class="card bg-primary text-white">
+    <h1 class = "card-header">@Model.name</h1>
+    <div class="card-body">
+        <p class="card-text">
+            Giá: @Model.price
+        </p>
+    </div> 
+</div>
+<hr>
+@this.Path
